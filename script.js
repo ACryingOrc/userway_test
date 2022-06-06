@@ -52,8 +52,8 @@ function onKeyDown(event) {
   const IS_HEADING_KEY      = KEY === 72
   const IS_LINK_KEY         = KEY === 76
   const IS_LANDMARK_KEY     = KEY === 77
-  const IS_UP_KEY = KEY     === 38
-  const IS_DOWN_KEY = KEY   === 40
+  const IS_UP_KEY           = KEY === 38
+  const IS_DOWN_KEY         = KEY === 40
   const ACTIVE_ELEMENT      = document.activeElement
 
   if (
